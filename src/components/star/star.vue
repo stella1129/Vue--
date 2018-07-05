@@ -1,10 +1,10 @@
 <template>
 	<div class="star" :class="starType">
-		<span v-for="item in itemClasses" :class="star-item"></span>
+		<span v-for="(itemClass,index) in itemClasses" :class="itemClass" class="star-item" :key="itemClass.index"></span>
 	</div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
     const LENGTH = 5;
     const CLS_ON = 'on';
     const CLS_HALF = 'half';
@@ -44,7 +44,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheets/stylus">
-@import "../../common//stylus/mixin.styl"
+  @import "../../common/stylus/mixin";
 
   .star
     font-size: 0
