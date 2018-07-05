@@ -19,3 +19,12 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+修改1@Home；
+修改2@home;
+修改3@home
+dev修改@home1!!!!!bugfixInMaster
+hellofeature1withMaster
+dev2修改嗷嗷嗷
+dev2修改ccc
+
